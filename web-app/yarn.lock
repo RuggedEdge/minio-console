@@ -11785,19 +11785,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mds@https://github.com/minio/mds.git#v1.0.4":
-  version: 1.0.4
-  resolution: "mds@https://github.com/minio/mds.git#commit=027fb7f9834e2bd6daba7f62a9d04d9a3606fbe1"
+"mds@file:../../minio-mds::locator=web-app%40workspace%3A.":
+  version: 1.0.7
+  resolution: "mds@file:../../minio-mds#../../minio-mds::hash=2b4dc9&locator=web-app%40workspace%3A."
   dependencies:
     "@storybook/test": "npm:^8.2.4"
     "@types/styled-components": "npm:^5.1.34"
     "@uiw/react-textarea-code-editor": "npm:^3.0.2"
     detect-gpu: "npm:^5.0.39"
     luxon: "npm:^3.4.4"
+    n: "npm:^10.1.0"
     react-calendar: "npm:^5.0.0"
     react-virtualized: "npm:^9.22.5"
     styled-components: "npm:^5.3.11"
-  checksum: 10c0/101b6a0c42c7dad009e40166239bf1c6a50333563532fad36e7111de2dfcf5999db4ab16906d200791c943cd3b33545237de9ee6eecd217b6c03eba11aeefa26
+  checksum: 10c0/a22e5ca705e162684cb4b3935fa7f5691857e741e7e4f91d30a402b9b2e76e248f03f35411956ffa36fb9e561e0e0cb6a86b4431940d3993d47b5079d498ce67
   languageName: node
   linkType: hard
 
@@ -12506,6 +12507,16 @@ __metadata:
     object-assign: "npm:^4.0.1"
     thenify-all: "npm:^1.0.0"
   checksum: 10c0/103114e93f87362f0b56ab5b2e7245051ad0276b646e3902c98397d18bb8f4a77f2ea4a2c9d3ad516034ea3a56553b60d3f5f78220001ca4c404bd711bd0af39
+  languageName: node
+  linkType: hard
+
+"n@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "n@npm:10.1.0"
+  bin:
+    n: bin/n
+  checksum: 10c0/a250b4efa46e34b2d120e28aba6598cde2c56d33e89c133417aef2e987591f0813db4b335bd552eef0cae72f556fa15d9cd128a50e47cba6b4bbd14d0c8b50e9
+  conditions: "!os=win32"
   languageName: node
   linkType: hard
 
@@ -18222,7 +18233,7 @@ __metadata:
     local-storage-fallback: "npm:^4.1.2"
     lodash: "npm:^4.17.21"
     luxon: "npm:^3.4.4"
-    mds: "https://github.com/minio/mds.git#v1.0.4"
+    mds: "file:../../minio-mds"
     minio: "npm:^8.0.1"
     nyc: "npm:^15.1.0"
     prettier: "npm:3.3.3"
