@@ -170,7 +170,7 @@ const AddServiceAccount = () => {
               label={"User Details - " + userName}
             />
           }
-          actions={<HelpMenu />}
+          
         />
         <PageLayout>
           <FormLayout

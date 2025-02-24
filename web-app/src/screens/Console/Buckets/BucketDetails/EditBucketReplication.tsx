@@ -148,7 +148,7 @@ const EditBucketReplication = () => {
             onClick={() => navigate(backLink)}
           />
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <form

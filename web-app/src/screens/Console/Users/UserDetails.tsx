@@ -250,7 +250,7 @@ const UserDetails = () => {
             />
           </Fragment>
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <Grid container>

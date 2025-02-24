@@ -145,7 +145,7 @@ const IDPConfigurations = ({ idpType }: IDPConfigurationsProps) => {
       )}
       <PageHeaderWrapper
         label={`${idpType.toUpperCase()} Configurations`}
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <Grid container>

@@ -20,7 +20,7 @@ import get from "lodash/get";
 import { Box, breakPoints, Loader, Tooltip } from "mds";
 
 const StatCardMain = styled.div(({ theme }) => ({
-  fontFamily: "Inter,sans-serif",
+  fontFamily: "AllRoundGothic,sans-serif",
   color: get(theme, "signalColors.main", "#07193E"),
   maxWidth: "300px",
   display: "flex",

@@ -141,35 +141,21 @@ const StrategyForm = ({ redirectRules }: { redirectRules: RedirectRule[] }) => {
                 submitSSOInitRequest(`${redirectRules[0].redirect}`);
               }}
             />
-            {redirectRules.length > 1 && (
-              <DropdownSelector
-                id={"redirect-rules"}
-                options={ssoOptions}
-                selectedOption={""}
-                onSelect={(nValue) => submitSSOInitRequest(nValue)}
-                hideTriggerAction={() => {
-                  ssoOptionsSetOpen(false);
-                }}
-                open={ssoOptionsOpen}
-                anchorEl={anchorEl}
-                useAnchorWidth={true}
-              />
-            )}
           </Box>
         </Fragment>
       )}
 
-      <form noValidate onSubmit={formSubmit} style={{ width: "100%" }}>
+      <form noValidate onSubmit={formSubmit} style={{ width: "50%" , margin: "auto"}}>
         {((displaySSOForm && redirectRules.length > 0) ||
           redirectRules.length === 0) && (
           <Fragment>
             <Grid
               container
               sx={{
-                marginTop: redirectRules.length > 0 ? 55 : 0,
+                marginTop: 55,textAlign: "center" 
               }}
             >
-              <Grid item xs={12} sx={{ marginBottom: 14 }}>
+              <Grid item xs={12} sx={{ marginBottom: 14}}>
                 <InputBox
                   fullWidth
                   id="accessKey"
@@ -260,16 +246,7 @@ const StrategyForm = ({ redirectRules }: { redirectRules: RedirectRule[] }) => {
             </Grid>
           </Fragment>
         )}
-        <Grid item xs={12} sx={{ marginTop: 45 }}>
-          <Select
-            id="alternativeMethods"
-            name="alternativeMethods"
-            fixedLabel="Other Authentication Methods"
-            options={selectOptions}
-            onChange={extraActionSelector}
-            value={""}
-          />
-        </Grid>
+
       </form>
     </React.Fragment>
   );

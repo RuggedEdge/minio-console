@@ -178,7 +178,7 @@ const AddBucketReplication = () => {
             onClick={() => navigate(backLink)}
           />
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <FormLayout

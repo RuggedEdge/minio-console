@@ -342,7 +342,7 @@ const PolicyDetails = () => {
             />
           </Fragment>
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <ScreenTitle

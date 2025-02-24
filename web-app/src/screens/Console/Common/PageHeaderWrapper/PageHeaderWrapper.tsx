@@ -36,7 +36,6 @@ const PageHeaderWrapper = ({
       actions={
         <Fragment>
           {actions}
-          <DarkModeActivator />
           <ObjectManagerButton />
         </Fragment>
       }

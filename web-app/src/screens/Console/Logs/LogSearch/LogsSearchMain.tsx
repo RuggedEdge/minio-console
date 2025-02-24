@@ -229,7 +229,7 @@ const LogsSearchMain = () => {
         />
       )}
 
-      <PageHeaderWrapper label="Audit Logs" actions={<HelpMenu />} />
+      <PageHeaderWrapper label="Audit Logs"  />
 
       <PageLayout>
         {!logSearchEnabled ? (

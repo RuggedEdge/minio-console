@@ -26,23 +26,12 @@ import { AppState } from "./store";
 interface IStyleHandler {
   children: React.ReactNode;
 }
-
 const StyleHandler = ({ children }: IStyleHandler) => {
-  const colorVariants = useSelector(
-    (state: AppState) => state.system.overrideStyles,
-  );
-  const darkMode = useSelector((state: AppState) => state.system.darkMode);
-
-  let thm = undefined;
-
-  if (colorVariants) {
-    thm = generateOverrideTheme(colorVariants);
-  }
 
   return (
     <Fragment>
-      <GlobalStyles />
-      <ThemeHandler darkMode={darkMode} customTheme={thm}>
+     <GlobalStyles />
+      <ThemeHandler>
         {children}
       </ThemeHandler>
     </Fragment>

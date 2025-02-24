@@ -197,7 +197,7 @@ const Groups = () => {
           }}
         />
       )}
-      <PageHeaderWrapper label={"Groups"} actions={<HelpMenu />} />
+      <PageHeaderWrapper label={"Groups"}  />
 
       <PageLayout>
         <Grid container>

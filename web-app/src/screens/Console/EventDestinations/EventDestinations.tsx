@@ -34,7 +34,7 @@ const EventDestinations = () => {
   }, []);
   return (
     <Fragment>
-      <PageHeaderWrapper label="Event Destinations" actions={<HelpMenu />} />
+      <PageHeaderWrapper label="Event Destinations"  />
       <ListNotificationEndpoints />
     </Fragment>
   );

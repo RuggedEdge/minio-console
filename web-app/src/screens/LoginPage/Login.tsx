@@ -134,12 +134,6 @@ const Login = () => {
       );
   }
 
-  let docsURL = "https://min.io/docs/minio/linux/index.html?ref=con";
-  if (isK8S) {
-    docsURL =
-      "https://min.io/docs/minio/kubernetes/upstream/index.html?ref=con";
-  }
-
   useEffect(() => {
     dispatch(setHelpName("login"));
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -148,68 +142,7 @@ const Login = () => {
   return (
     <Fragment>
       <MainError />
-      <LoginWrapper
-        logoProps={{
-          applicationName: getLogoApplicationVariant(),
-          subVariant: getLogoVar(),
-        }}
-        form={loginComponent}
-        formFooter={
-          <Box
-            sx={{
-              "& .separator": {
-                marginLeft: 4,
-                marginRight: 4,
-              },
-            }}
-          >
-            <a href={docsURL} target="_blank" rel="noopener">
-              Documentation
-            </a>
-            <span className={"separator"}>|</span>
-            <a
-              href="https://github.com/minio/minio"
-              target="_blank"
-              rel="noopener"
-            >
-              GitHub
-            </a>
-            <span className={"separator"}>|</span>
-            <a
-              href="https://subnet.min.io/?ref=con"
-              target="_blank"
-              rel="noopener"
-            >
-              Support
-            </a>
-            <span className={"separator"}>|</span>
-            <a
-              href="https://min.io/download/?ref=con"
-              target="_blank"
-              rel="noopener"
-            >
-              Download
-            </a>
-          </Box>
-        }
-        promoHeader={
-          <span style={{ fontSize: 28 }}>High-Performance Object Store</span>
-        }
-        promoInfo={
-          <span style={{ fontSize: 14, lineHeight: 1 }}>
-            MinIO is a cloud-native object store built to run on any
-            infrastructure - public, private or edge clouds. Primary use cases
-            include data lakes, databases, AI/ML, SaaS applications and fast
-            backup & recovery. MinIO is dual licensed under GNU AGPL v3 and
-            commercial license. To learn more, visit{" "}
-            <a href={"https://min.io/?ref=con"} target="_blank" rel="noopener">
-              www.min.io
-            </a>
-            .
-          </span>
-        }
-        backgroundAnimation={backgroundAnimation}
-      />
+      {loginComponent}
     </Fragment>
   );
 };

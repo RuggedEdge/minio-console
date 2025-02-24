@@ -39,7 +39,7 @@ const NetworkGetBase = styled.div(({ theme }) => ({
     },
     "& .valueText": {
       fontSize: 50,
-      fontFamily: "Inter",
+      fontFamily: "AllRoundGothic",
       fontWeight: 600,
     },
   },

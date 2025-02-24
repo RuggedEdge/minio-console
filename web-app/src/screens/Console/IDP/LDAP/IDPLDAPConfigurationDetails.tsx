@@ -292,7 +292,7 @@ const IDPLDAPConfigurationDetails = () => {
           resetOpen={resetOpen}
         />
       )}
-      <PageHeaderWrapper label={"LDAP"} actions={<HelpMenu />} />
+      <PageHeaderWrapper label={"LDAP"}  />
       <PageLayout variant={"constrained"}>
         <Tabs
           horizontal

@@ -100,7 +100,7 @@ const AddPolicyScreen = () => {
               onClick={() => navigate(IAM_PAGES.POLICIES)}
             />
           }
-          actions={<HelpMenu />}
+          
         />
         <PageLayout>
           <FormLayout

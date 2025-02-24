@@ -205,7 +205,7 @@ const BucketDetails = () => {
                 disabled={!canBrowse}
               />
             </TooltipWrapper>
-            <HelpMenu />
+            
           </Fragment>
         }
       />

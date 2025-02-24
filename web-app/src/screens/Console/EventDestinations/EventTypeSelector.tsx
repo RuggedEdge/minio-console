@@ -57,7 +57,7 @@ const EventTypeSelector = () => {
             />
           </Fragment>
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <FormLayout helpBox={<NotificationEndpointTypeSelectorHelpBox />}>

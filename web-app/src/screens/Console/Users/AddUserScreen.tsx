@@ -101,7 +101,7 @@ const AddUser = () => {
               onClick={() => navigate(IAM_PAGES.USERS)}
             />
           }
-          actions={<HelpMenu />}
+          
         />
         <PageLayout>
           <FormLayout

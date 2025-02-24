@@ -56,7 +56,7 @@ const TargetBase = styled.div(({ theme }) => ({
   "& .titleBox": {
     color: get(theme, "fontColor", "#000"),
     fontSize: 16,
-    fontFamily: "Inter,sans-serif",
+    fontFamily: "AllRoundGothic,sans-serif",
     paddingLeft: 18,
   },
 }));

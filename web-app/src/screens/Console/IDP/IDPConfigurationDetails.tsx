@@ -436,7 +436,7 @@ const IDPConfigurationDetails = ({
       <Grid item xs={12}>
         <PageHeaderWrapper
           label={<BackLink onClick={() => navigate(backLink)} label={header} />}
-          actions={<HelpMenu />}
+          
         />
         <PageLayout>
           <ScreenTitle

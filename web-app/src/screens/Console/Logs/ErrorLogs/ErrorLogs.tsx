@@ -176,7 +176,7 @@ const ErrorLogs = () => {
 
   return (
     <Fragment>
-      <PageHeaderWrapper label="Logs" actions={<HelpMenu />} />
+      <PageHeaderWrapper label="Logs"  />
 
       <PageLayout>
         <Grid container sx={{ gap: 15 }}>

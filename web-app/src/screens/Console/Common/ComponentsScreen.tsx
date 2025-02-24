@@ -33,7 +33,7 @@ const ComponentsScreen = () => {
 
   return (
     <Fragment>
-      <PageHeaderWrapper label={"Components"} actions={<HelpMenu />} />
+      <PageHeaderWrapper label={"Components"}  />
 
       <PageLayout>
         <Grid container>

@@ -20,7 +20,7 @@ import get from "lodash/get";
 import { Box, breakPoints, CircleIcon } from "mds";
 
 const StatusCountBase = styled.div(({ theme }) => ({
-  fontFamily: "Inter,sans-serif",
+  fontFamily: "AllRoundGothic,sans-serif",
   maxWidth: "321px",
   display: "flex",
   marginLeft: "auto",

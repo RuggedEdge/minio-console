@@ -175,7 +175,7 @@ const ListBuckets = () => {
         />
       )}
       {!obOnly && (
-        <PageHeaderWrapper label={"Buckets"} actions={<HelpMenu />} />
+        <PageHeaderWrapper label={"Buckets"}  />
       )}
 
       <PageLayout>

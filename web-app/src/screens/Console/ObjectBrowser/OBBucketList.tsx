@@ -118,7 +118,7 @@ const OBListBuckets = () => {
   return (
     <Fragment>
       {!obOnly && (
-        <PageHeaderWrapper label={"Object Browser"} actions={<HelpMenu />} />
+        <PageHeaderWrapper label={"Object Browser"}  />
       )}
 
       <PageLayout>

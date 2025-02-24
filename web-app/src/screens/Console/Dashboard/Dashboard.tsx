@@ -52,7 +52,7 @@ const Dashboard = () => {
   return (
     <Fragment>
       {!hideMenu && (
-        <PageHeaderWrapper label="Metrics" actions={<HelpMenu />} />
+        <PageHeaderWrapper label="Metrics"  />
       )}
       <PrDashboard usage={usage} />
     </Fragment>

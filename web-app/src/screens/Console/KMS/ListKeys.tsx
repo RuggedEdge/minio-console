@@ -91,7 +91,7 @@ const ListKeys = () => {
     <React.Fragment>
       <PageHeaderWrapper
         label="Key Management Service Keys"
-        actions={<HelpMenu />}
+        
       />
 
       <PageLayout>

@@ -53,7 +53,7 @@ const DestinationButtonBase = styled.button(({ theme }) => ({
   "& .lambdaNotifTitle": {
     color: get(theme, "buttons.callAction.enabled.background", "#07193E"),
     fontSize: 16,
-    fontFamily: "Inter,sans-serif",
+    fontFamily: "AllRoundGothic,sans-serif",
     paddingLeft: 18,
     fontWeight: "bold",
   },

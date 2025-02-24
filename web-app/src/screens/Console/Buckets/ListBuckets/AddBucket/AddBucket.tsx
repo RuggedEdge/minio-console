@@ -229,7 +229,7 @@ const AddBucket = () => {
         label={
           <BackLink label={"Buckets"} onClick={() => navigate("/buckets")} />
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <FormLayout

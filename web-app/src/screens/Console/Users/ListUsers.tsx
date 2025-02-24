@@ -189,7 +189,7 @@ const ListUsers = () => {
           }}
         />
       )}
-      <PageHeaderWrapper label={"Users"} actions={<HelpMenu />} />
+      <PageHeaderWrapper label={"Users"}  />
 
       <PageLayout>
         <Grid container>

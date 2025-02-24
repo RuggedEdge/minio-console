@@ -111,13 +111,6 @@ export const validRoutes = (
       forceDisplay: true,
     },
     {
-      group: "User",
-      path: "https://min.io/docs/minio/linux/index.html?ref=con",
-      name: "Documentation",
-      icon: <DocumentationIcon />,
-      forceDisplay: true,
-    },
-    {
       group: "Administrator",
       name: "Buckets",
       id: "buckets",
@@ -224,15 +217,6 @@ export const validRoutes = (
       name: "Configuration",
       id: "configurations",
       icon: <SettingsIcon />,
-    },
-    {
-      group: "Administrator",
-      path: IAM_PAGES.LICENSE,
-      name: "License",
-      id: "license",
-      icon: <LicenseIcon />,
-      badge: licenseNotification,
-      forceDisplay: true,
     },
   ];
 

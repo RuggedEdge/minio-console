@@ -151,7 +151,7 @@ const AddEventDestination = ({
             />
           </Fragment>
         }
-        actions={<HelpMenu />}
+        
       />
 
       <PageLayout>

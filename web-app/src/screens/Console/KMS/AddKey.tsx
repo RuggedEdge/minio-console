@@ -43,7 +43,7 @@ const AddKey = () => {
               onClick={() => navigate(IAM_PAGES.KMS_KEYS)}
             />
           }
-          actions={<HelpMenu />}
+          
         />
         <AddKeyForm />
       </Grid>

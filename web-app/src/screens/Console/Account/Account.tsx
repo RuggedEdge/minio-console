@@ -213,7 +213,7 @@ const Account = () => {
         open={changePasswordModalOpen}
         closeModal={() => setChangePasswordModalOpen(false)}
       />
-      <PageHeaderWrapper label="Access Keys" actions={<HelpMenu />} />
+      <PageHeaderWrapper label="Access Keys"  />
 
       <PageLayout>
         <Grid container>

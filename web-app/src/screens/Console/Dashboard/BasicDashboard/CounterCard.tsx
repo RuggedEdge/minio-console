@@ -20,7 +20,7 @@ import styled from "styled-components";
 import { Box, breakPoints, Tooltip } from "mds";
 
 const CounterCardMain = styled.div(({ theme }) => ({
-  fontFamily: "Inter,sans-serif",
+  fontFamily: "AllRoundGothic,sans-serif",
   color: get(theme, "signalColors.main", "#07193E"),
   maxWidth: "300px",
   display: "flex",

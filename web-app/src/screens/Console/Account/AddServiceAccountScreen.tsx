@@ -158,7 +158,7 @@ const AddServiceAccount = () => {
               onClick={() => navigate(IAM_PAGES.ACCOUNT)}
             />
           }
-          actions={<HelpMenu />}
+          
         />
         <PageLayout>
           <FormLayout

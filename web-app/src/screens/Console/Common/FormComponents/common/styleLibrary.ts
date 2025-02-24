@@ -26,7 +26,7 @@ export const modalBasic = {
     marginBottom: 25,
   },
   clearButton: {
-    fontFamily: "Inter, sans-serif",
+    fontFamily: "AllRoundGothic, sans-serif",
     border: "0",
     backgroundColor: "transparent",
     color: "#393939",
@@ -107,7 +107,7 @@ export const typesSelection = {
   lambdaNotifTitle: {
     color: "#07193E",
     fontSize: 16,
-    fontFamily: "Inter,sans-serif",
+    fontFamily: "AllRoundGothic,sans-serif",
     paddingLeft: 18,
   },
 };

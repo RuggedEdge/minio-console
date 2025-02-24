@@ -176,7 +176,7 @@ const ListPolicies = () => {
           closeDeleteModalAndRefresh={closeDeleteModalAndRefresh}
         />
       )}
-      <PageHeaderWrapper label="IAM Policies" actions={<HelpMenu />} />
+      <PageHeaderWrapper label="IAM Policies"  />
 
       <PageLayout>
         <Grid container>

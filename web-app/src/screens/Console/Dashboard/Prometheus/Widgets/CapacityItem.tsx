@@ -54,7 +54,7 @@ const CapacityItemMain = styled.div(({ theme }) => ({
     display: "flex",
     "& .value": {
       fontSize: "50px",
-      fontFamily: "Inter",
+      fontFamily: "AllRoundGothic",
       fontWeight: 600,
       alignSelf: "flex-end",
       lineHeight: 1,

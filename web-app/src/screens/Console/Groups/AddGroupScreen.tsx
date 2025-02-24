@@ -98,7 +98,7 @@ const AddGroupScreen = () => {
             onClick={() => navigate(IAM_PAGES.GROUPS)}
           />
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <FormLayout

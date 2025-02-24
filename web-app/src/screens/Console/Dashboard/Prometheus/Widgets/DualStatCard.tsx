@@ -20,7 +20,7 @@ import get from "lodash/get";
 import { Box, breakPoints } from "mds";
 
 const DualSTCardContent = styled.div(({ theme }) => ({
-  fontFamily: "Inter,sans-serif",
+  fontFamily: "AllRoundGothic,sans-serif",
   color: get(theme, "signalColors.main", "#07193E"),
   maxWidth: "321px",
   display: "flex",

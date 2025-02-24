@@ -379,7 +379,7 @@ const GroupsDetails = () => {
             />
           </Fragment>
         }
-        actions={<HelpMenu />}
+        
       />
       <PageLayout>
         <Grid item xs={12}>

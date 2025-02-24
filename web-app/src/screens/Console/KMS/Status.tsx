@@ -353,7 +353,7 @@ const Status = () => {
     <Fragment>
       <PageHeaderWrapper
         label="Key Management Service"
-        actions={<HelpMenu />}
+        
       />
 
       <PageLayout>
